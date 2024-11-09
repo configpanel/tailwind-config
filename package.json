@@ -1,0 +1,26 @@
+{
+  "name": "@configpanel/tailwind-config",
+  "version": "1.0.0",
+  "description": "TailwindCSS default configuration for ConfigPanel",
+  "main": "./dist/main.js",
+  "module": "./dist/main.mjs",
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@configpanel/tailwind-config"
+  },
+  "author": "Leonard Lesinski",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5"
+  }
+}
